@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
 	def new
-		@whatever = "whatever"
+		@tweet = Tweet.new
 		
 	end
 
